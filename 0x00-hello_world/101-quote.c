@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  *  main - this is a program that prints the belo line of text to standard error
- *   Return: returns 1 if successful
+ *  Return: returns 1 if successful
  */
 int main(void)
 {
