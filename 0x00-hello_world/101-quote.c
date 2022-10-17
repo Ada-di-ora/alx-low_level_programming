@@ -5,8 +5,8 @@
  */
 int main(void)
 {
-	const char quote[] = "and that piece of art is useful";
-	fprintf(stderr, "%s\" - Dora Korpar, 2015-10-19\n", quote);
-	return (1);
+const char quote[] = "and that piece of art is useful";
+fprintf(stderr, "%s\" - Dora Korpar, 2015-10-19\n", quote);
+return (1);
 }
 
