@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- *  main - this is a program that prints the belo line of text to standard error
+ *  main - this is a program that prints the belo line of text to standard errr
  *  Return: returns 1 if successful
  */
 int main(void)
