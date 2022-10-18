@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- *  * main - this na code
+ *  main - this na code
  *  no even whine me
  *  Return: returns 0 idf successful
 */
@@ -17,4 +17,5 @@ for (T = 'A'; T <= 'Z'; T++)
 putchar(T);
 }
 putchar('\n');
-return (0);}
+return (0);
+}
