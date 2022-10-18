@@ -18,7 +18,7 @@ if (lig > 5)
 {
 printf("%s %d is %d and is greater than 5\n", text, n, lig);
 }
-else if (lig == 0;
+else if (lig == 0)
 {
 printf("%s %d is %d and is 0\n", text, n, lig);
 }
