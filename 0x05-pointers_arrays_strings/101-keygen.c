@@ -8,7 +8,7 @@
 */
 int main(void)
 {
-nt pass[100];
+int pass[100];
 int i, sum, n;
 sum = 0;
 srand(time(NULL));
