@@ -1,23 +1,37 @@
 #include "lists.h"
 
 /**
- * add_nodeint - adds a new node at the beginning of a linked list
- * @head: pointer to the first node in the list
- * @n: data to insert in that new node
+ * _strlen - returns the length of a string
+ * @s: the string to be chacked
  *
- * Return: pointer to the new node, or NULL if it fails
+ * Return: the length of the string
  */
+unsigned int _strlen(char *s)
+{
+	unsigned int i = 0;
+
+	while (s[i])
+		i++;
+	return (i);
+}
+
+/**
+ * add_nodeint - adds a new node at the beginning of a listint_t list
+ * @head: the list_t list
+ * @n: the value of the integer in the node to add
+ *
+ * Return: the address of the new element, or NULL on failure
+ */
+
 listint_t *add_nodeint(listint_t **head, const int n)
 {
-	listint_t *new;
+	listint_t *newNode;
 
-	new = malloc(sizeof(listint_t));
-	if (!new)
+	newNode = malloc(sizeof(listint_t));
+	if (!newNode)
 		return (NULL);
-
-	new->n = n;
-	new->next = *head;
-	*head = new;
-
-	return (new);
+	newNode->n = n;
+	newNode->next = *head;
+	*head = newNode;
+	return (newNode);
 }
